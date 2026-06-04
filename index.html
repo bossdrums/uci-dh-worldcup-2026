@@ -156,33 +156,47 @@ function loadTheme(){const s=localStorage.getItem('uci-theme')||'light';document
 // =====================================================================
 
 const standingsData = {
-  lastUpdated: "4 May 2026",
-  roundsCompleted: 1,
+  lastUpdated: "31 May 2026",
+  roundsCompleted: 2,
 
   // ---- MEN ELITE OVERALL STANDINGS (cumulative points) ----
   menOverall: [
-    { pos: 1,  rider: "Asa Vermette",       country: "🇺🇸", team: "Frameworks Racing / TRP",          points: 250 },
-    { pos: 2,  rider: "Loïc Bruni",         country: "🇫🇷", team: "Specialized Gravity",              points: 200 },
-    { pos: 3,  rider: "Amaury Pierron",      country: "🇫🇷", team: "Commencal/Muc-Off",               points: 160 },
-    { pos: 4,  rider: "Loris Vergier",       country: "🇫🇷", team: "Commencal/Muc-Off",               points: 130 },
-    { pos: 5,  rider: "Nathan Pontvianne",   country: "🇫🇷", team: "Santa Cruz Burgtec by Goodman",   points: 110 },
-    { pos: 6,  rider: "Thibaut Alran",       country: "🇫🇷", team: "Commencal/Muc-Off",               points: 95  },
-    { pos: 7,  rider: "Bode Burke",          country: "🇦🇸", team: "—",                               points: 80  },
-    { pos: 8,  rider: "Troy Brosnan",        country: "🇦🇺", team: "Canyon DH Racing",                points: 70  },
-    { pos: 9,  rider: "Aaron Gwin",          country: "🇺🇸", team: "Frameworks Racing / TRP",          points: 60  },
-    { pos: 10, rider: "Richie Rude Jr",      country: "🇺🇸", team: "Yeti / Fox Factory",              points: 55  }
+    { pos: 1,  rider: "Luca Shaw",            country: "USA", team: "Canyon DH Racing",              points: 285 },
+    { pos: 2,  rider: "Benoit Coulanges",     country: "FRA", team: "Scott Downhill Racing",         points: 263 },
+    { pos: 3,  rider: "Amaury Pierron",       country: "FRA", team: "Commencal/Muc-Off",             points: 261 },
+    { pos: 4,  rider: "Asa Vermette",         country: "USA", team: "Frameworks Racing / TRP",       points: 250 },
+    { pos: 5,  rider: "Jordan Williams",      country: "GBR", team: "Specialized Gravity",           points: 238 },
+    { pos: 6,  rider: "Loris Vergier",        country: "FRA", team: "Commencal/Muc-Off",             points: 196 },
+    { pos: 7,  rider: "Fin Iles",             country: "CAN", team: "Specialized Gravity",           points: 192 },
+    { pos: 8,  rider: "Andreas Kolb",         country: "AUT", team: "Santa Cruz Syndicate",          points: 190 },
+    { pos: 9,  rider: "Martin Maes",          country: "BEL", team: "Orbea FMD Racing",              points: 188 },
+    { pos: 10,  rider: "Ryan Pinkerton",      country: "USA", team: "Mondraker Factory Racing",      points: 185 },
+    { pos: 11,  rider: "Loïc Bruni",          country: "FRA", team: "Specialized Gravity",           points: 180 },
+    { pos: 12,  rider: "Max Alran",           country: "FRA", team: "Commencal/Muc-Off",             points: 177 },
+    { pos: 13,  rider: "Nathan Pontvianne",   country: "FRA", team: "Santa Cruz Burgtec by Goodman", points: 175 },
+    { pos: 14,  rider: "Troy Brosnan",        country: "AUS", team: "Canyon DH Racing",              points: 160  },
+    { pos: 15,  rider: "Tyler Waite",         country: "NZL", team: "Yeti / Fox Factory",            points: 160 },
   ],
 
   // ---- WOMEN ELITE OVERALL STANDINGS (cumulative points) ----
   womenOverall: [
-    { pos: 1, rider: "Vali Höll",                country: "🇦🇹", team: "Commencal Schwalbe by Les Orres", points: 250 },
-    { pos: 2, rider: "Gloria Scarsi",             country: "🇮🇹", team: "MS-Racing",                       points: 200 },
-    { pos: 3, rider: "Myriam Nicole",             country: "🇫🇷", team: "Commencal/Muc-Off",               points: 160 },
-    { pos: 4, rider: "Hattie Harnden",            country: "🇬🇧", team: "AON Racing",                      points: 130 },
-    { pos: 5, rider: "Valentina Roa Sanchez",     country: "🇨🇴", team: "—",                               points: 110 },
-    { pos: 6, rider: "Lisa Baumann",              country: "🇩🇪", team: "Commencal Schwalbe by Les Orres", points: 95  },
+    { pos: 1, rider: "Vali Höll",                 country: "AUT", team: "Commencal Schwalbe by Les Orres",   points: 466 },
+    { pos: 2, rider: "Myriam Nicole",             country: "FRA", team: "Commencal/Muc-Off",                 points: 330 },
+    { pos: 3, rider: "Valentina Roa Sanchez",     country: "COL", team: "MS-Racing",                         points: 285 },
+    { pos: 4, rider: "Hattie Harnden",            country: "GBR", team: "AON Racing",                        points: 270 },
+    { pos: 5, rider: "Gracey Hemstreet",          country: "CAN", team: "Norco x Adidas",                    points: 270  },
+    { pos: 6, rider: "Lisa Baumann",              country: "SUI", team: "Commencal Schwalbe by Les Orres",   points: 225  },
+    { pos: 7, rider: "Gloria Scarsi",             country: "ITA", team: "MS-Racing",                         points: 190 },
+    { pos: 8, rider: "Sacha Earnest",             country: "NZL", team: "Trek - Unbroken",                   points: 165 },
+    { pos: 9, rider: "Lisa Bouladou",             country: "FRA", team: "Sanat Cruz Burgtec by Goodman",     points: 153 },
+    { pos: 10, rider: "Marina Cabirou",           country: "FRA", team: "Canyon DH Racing",                  points: 133 },
+    { pos: 11, rider: "Phoebe Gale",              country: "GBR", team: "Orbea FMD Racing",                  points: 115 },
+    { pos: 12, rider: "Anna Newark",              country: "USA", team: "Frameworks Racing / TRP",           points: 112 },
+    { pos: 13, rider: "Nina Hoffmann",            country: "GER", team: "Santa Cruz Syndicate",              points: 71 },
+    { pos: 14, rider: "Tahnee Seagrave",          country: "GBR", team: "Orbea FMD Racing",                  points: 60 },
+    { pos: 15, rider: "Eliana Hulsebosch",        country: "NZL", team: "Santa Cruz Syndicate",              points: 52 },    
+    
     { pos: 7, rider: "Tahnée Seagrave",           country: "🇬🇧", team: "Orbea FMD Racing",                points: 80  },
-    { pos: 8, rider: "Gracey Hemstreet",          country: "🇨🇦", team: "Norco x Adidas",                  points: 70  }
   ],
 
   // ---- ROUND-BY-ROUND RESULTS ----
@@ -202,34 +216,33 @@ const standingsData = {
         { pos: 5, rider: "Nathan Pontvianne",  country: "🇫🇷", time: "2:46.557" }
       ],
       womenTop5: [
-        { pos: 1, rider: "Vali Höll",                country: "🇦🇹", time: "3:14.778" },
+        { pos: 1, rider: "Valentina Höll",            country: "🇦🇹", time: "3:14.778" },
         { pos: 2, rider: "Gloria Scarsi",             country: "🇮🇹", time: "3:15.351" },
         { pos: 3, rider: "Myriam Nicole",             country: "🇫🇷", time: "3:16.529" },
         { pos: 4, rider: "Hattie Harnden",            country: "🇬🇧", time: "3:16.830" },
         { pos: 5, rider: "Valentina Roa Sanchez",     country: "🇨🇴", time: "3:17.264" }
       ]
     }
-    // ---- ROUND 2 TEMPLATE (uncomment and fill after R2) ----
-    // ,{
-    //   round: 2,
-    //   location: "Loudenvielle-Peyragudes, France",
-    //   date: "31 May 2026",
-    //   status: "complete",
-    //   menTop5: [
-    //     { pos: 1, rider: "",  country: "", time: "" },
-    //     { pos: 2, rider: "",  country: "", time: "" },
-    //     { pos: 3, rider: "",  country: "", time: "" },
-    //     { pos: 4, rider: "",  country: "", time: "" },
-    //     { pos: 5, rider: "",  country: "", time: "" }
-    //   ],
-    //   womenTop5: [
-    //     { pos: 1, rider: "",  country: "", time: "" },
-    //     { pos: 2, rider: "",  country: "", time: "" },
-    //     { pos: 3, rider: "",  country: "", time: "" },
-    //     { pos: 4, rider: "",  country: "", time: "" },
-    //     { pos: 5, rider: "",  country: "", time: "" }
-    //   ]
-    // }
+     // ---- ROUND 2 TEMPLATE (uncomment and fill after R2) ----
+     ,{
+       round: 2,
+       location: "Loudenvielle-Peyragudes, France",
+       date: "31 May 2026",
+       status: "complete",
+       menTop5: [
+        { pos: 1,  rider: "Luca Shaw",          country: "USA", time: "3:27.637" },
+        { pos: 2,  rider: "Benoit Coulanges",   country: "FRA", time: "3:27.764" },
+        { pos: 3,  rider: "Jordan Williams",    country: "GBR", time: "3:28.248"},
+        { pos: 4,  rider: "Finn Iles",          country: "CAN", time: "3:28.343" },
+        { pos: 5,  rider: "Tyler Waite",        country: "NZL", time: "3:28.505" },
+       ],
+       womenTop5: [
+        { pos: 1, rider: "Valentina Höll",           country: "AUT", time: "3:51.920" },
+        { pos: 2, rider: "Gracey Hemstreet",         country: "CAN", time: "3:55.177" },
+        { pos: 3, rider: "Lisa Baumann",             country: "SUI", time: "3:56.222" },
+        { pos: 4, rider: "Myriam Nicole",            country: "FRA", time: "3:56.437" },
+        { pos: 5, rider: "Valentina Roa Sanchez",    country: "COL", time: "357.217" }
+     }
   ]
 };
 
